@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+  
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+  
+header h1 {
+    margin-bottom: 0.5rem;
+}
+  
+nav {
+    margin-top: 1rem;
+}
+  
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+  
+nav ul li {
+    margin: 0 1rem;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+  
+nav ul li a:hover {
+    text-decoration: underline;
+}
+  
+main {
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 2rem;
+}   
+
+.card1 {
+    text-align: center; 
+    padding: 2rem;
+}
+  
+.card1 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+  
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center;
+    gap: 20px;
+    justify-items: center;
+}
+  
+.profile p {
+    font-size: 1.2rem;
+    max-width: 500px; 
+    text-align: left;
+}
+  
+.profile img {
+    width: 150px; 
+    height: auto;
+}
+
+.country {
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    align-items: center;
+    gap: 20px;
+    justify-items: center;
+}
+  
+.country p {
+    font-size: 1.2rem;
+    max-width: 500px; 
+    text-align: left;
+}
+  
+.country img {
+    width: 150px; 
+    height: auto;
+}
+  
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+  
+footer p {
+    margin: 0.5rem 0;
+}
+  
+@media (max-width: 768px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin-bottom: 1rem;
+    }
+}
