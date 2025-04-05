@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brasil</title>
+  <link rel="stylesheet" href="/styles/place.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Brasil</h1>
+    </header>
+    <main>
+        <section class="image-section">
+            <picture>
+              <source srcset="mobile.webp" type="image/webp" media="(max-width: 480px)" />
+              <img src="images/madagascar-large.webp" alt="Paisagem do Brasil" id="main-image" />
+            </picture>
+          
+            <div class="data-box">
+              <h2>Dados</h2>
+              <ul>
+                <li><strong>Área:</strong> 8.515.767 km²</li>
+                <li><strong>População:</strong> 214.000.000</li>
+                <li><strong>Capital:</strong> Brasília</li>
+                <li><strong>Idiomas:</strong> Português</li>
+                <li><strong>Moeda:</strong> Real (BRL)</li>
+                <li><strong>Fuso Horário:</strong> UTC-3</li>
+                <li><strong>Telefone:</strong> +55</li>
+                <li><strong>Domínio:</strong> .br</li>
+              </ul>
+            </div>
+          
+            <div class="weather-box">
+              <h2>Clima</h2>
+              <ul>
+                <li><strong>Temperatura:</strong> <span id="temperature">25</span>°C</li>
+                <li><strong>Condições:</strong> Parcialmente Nublado</li>
+                <li><strong>Vento:</strong> <span id="wind-speed">10</span> km/h</li>
+                <li><strong>Sensação Térmica:</strong> <span id="wind-chill">N/A</span></li>
+              </ul>
+            </div>
+          </section>          
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Roberto Caputo @ Brasil</p>
+      <p>Última Modificação: <span id="last-mod"></span></p>
+    </footer>
+  </div>
+
+  <script src="/scripts/place.js" defer></script>
+</body>
+</html>
