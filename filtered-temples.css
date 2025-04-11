@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #eee;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  }
+  
+  #temples-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .temple-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .temple-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }  
