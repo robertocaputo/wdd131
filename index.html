@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Quickly connect with agents and advertise your property with Blue." />
+  <link rel="stylesheet" href="styles/style.css" />
+  <title>Blue - Connecting You to the Ideal Property</title>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Blue</div>
+    <nav class="nav-links">
+      <ul id="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="add-property.html">Advertise your property</a></li>
+        <li><a href="add-agent.html">Become a Registered Agent</a></li>
+      </ul>
+    </nav>    
+    <div class="hamburger" id="hamburger">☰</div>
+  </header>
+  
+  <main>
+    <section class="hero split">
+      <div class="hero-left">
+        <h2>Find the ideal property for you</h2>
+        <p>The platform that connects you to your dream property.</p>
+        <button onclick="scrollToSection('listings')">Search Property</button>
+      </div>
+      <div class="hero-right">
+        <h2>Advertise your property</h2>
+        <p>Showcase your home to thousands of potential buyers now.</p>
+        <a href="add-property.html"><button>Add Now</button></a>
+      </div>
+    </section>
+
+    <section id="listings" class="vitrine">
+      <div id="showcase" class="vitrine-grid"></div>
+      <div id="pagination" class="pagination"></div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Blue Real Estate</p>
+  </footer>
+  
+  <script src="script/script.js"></script>
+</body>
+</html>
